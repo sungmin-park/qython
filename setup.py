@@ -6,7 +6,7 @@ version = '0.0.1'
 
 install_requires = []
 if 'develop' in argv:
-    install_requires += ['pytest>=2.6']
+    install_requires += ['pytest>=2.6', 'pytz']
 
 setup(name='qython', version=version, packages=['qython'], license='BSD',
       description='A missing library for python.',
